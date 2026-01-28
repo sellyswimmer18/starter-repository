@@ -18,7 +18,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 334.0, 119.0, 150.0, 33.0 ],
+                    "patching_rect": [ 334.0, 119.0, 153.0, 33.0 ],
                     "text": "to delete a point, shift click on a point"
                 }
             },
@@ -322,6 +322,14 @@
         ],
         "parameters": {
             "obj-4": [ "live.gain~", "live.gain~", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

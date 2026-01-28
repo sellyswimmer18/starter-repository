@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 59.0, 106.0, 629.0, 647.0 ],
+        "rect": [ 59.0, 149.0, 629.0, 647.0 ],
         "boxes": [
             {
                 "box": {
@@ -190,13 +190,12 @@
             {
                 "box": {
                     "id": "obj-84",
-                    "linecount": 2,
                     "maxclass": "message",
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 301.0, 737.0, 50.0, 35.0 ],
-                    "text": "1 0 0.168"
+                    "patching_rect": [ 301.0, 737.0, 50.0, 22.0 ],
+                    "text": "4 2 0."
                 }
             },
             {
@@ -231,7 +230,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "list", "list" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 201.0, 631.0, 130.0, 66.0 ],
+                    "patching_rect": [ 192.0, 621.5, 130.0, 66.0 ],
                     "rows": 3
                 }
             },
@@ -999,7 +998,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-69", 0 ],
-                    "midpoints": [ 210.5, 664.0, 120.0, 664.0, 120.0, 487.0, 134.5, 487.0 ],
+                    "midpoints": [ 201.5, 664.0, 120.0, 664.0, 120.0, 487.0, 134.5, 487.0 ],
                     "order": 1,
                     "source": [ "obj-78", 0 ]
                 }
