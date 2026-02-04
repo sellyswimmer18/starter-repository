@@ -9,16 +9,36 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 122.0, 181.0, 512.0, 344.0 ],
+        "rect": [ 95.0, 221.0, 512.0, 344.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-5",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 0,
+                    "patching_rect": [ 18.5, 105.0, 117.0, 22.0 ],
+                    "text": "lg.random.notes.v01"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-2",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 0,
+                    "patching_rect": [ 18.5, 72.0, 79.0, 22.0 ],
+                    "text": "lg.midi.in.v01"
+                }
+            },
             {
                 "box": {
                     "id": "obj-4",
                     "maxclass": "newobj",
                     "numinlets": 0,
                     "numoutlets": 0,
-                    "patching_rect": [ 52.0, 64.0, 128.0, 22.0 ],
-                    "text": "as.sound.out.copy.v01"
+                    "patching_rect": [ 8.0, 162.0, 100.0, 22.0 ],
+                    "text": "as.sound.out.v01"
                 }
             },
             {
@@ -27,7 +47,7 @@
                     "maxclass": "newobj",
                     "numinlets": 0,
                     "numoutlets": 0,
-                    "patching_rect": [ 25.0, 37.0, 93.0, 22.0 ],
+                    "patching_rect": [ 18.5, 37.0, 93.0, 22.0 ],
                     "text": "as.sound.in.v01"
                 }
             },
@@ -50,6 +70,17 @@
                         "rect": [ 381.0, 111.0, 1000.0, 647.0 ],
                         "visible": 1,
                         "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-8",
+                                    "linecount": 2,
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 451.0, 218.0, 150.0, 33.0 ],
+                                    "text": "option + click on an object to bring its help file"
+                                }
+                            },
                             {
                                 "box": {
                                     "id": "obj-22",

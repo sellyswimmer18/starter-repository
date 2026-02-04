@@ -9,8 +9,32 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 261.0, 92.0, 1159.0, 712.0 ],
+        "rect": [ 364.0, 87.0, 1159.0, 712.0 ],
         "boxes": [
+            {
+                "box": {
+                    "color": [ 0.0, 0.533333, 0.168627, 1.0 ],
+                    "id": "obj-16",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 654.734375, 87.2109375, 76.0, 22.0 ],
+                    "text": "receive pitch"
+                }
+            },
+            {
+                "box": {
+                    "color": [ 0.317647, 0.654902, 0.976471, 1.0 ],
+                    "id": "obj-12",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 833.0, 80.0, 91.0, 22.0 ],
+                    "text": "receive velocity"
+                }
+            },
             {
                 "box": {
                     "id": "obj-84",
@@ -118,7 +142,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1080.0000321865082, 685.3333537578583, 112.00000333786011, 47.0 ],
+                    "patching_rect": [ 1080.0000321865082, 685.3333537578583, 113.0, 47.0 ],
                     "text": "multislider @size 4 @setstyle 1 @setminmax 0. 1."
                 }
             },
@@ -630,8 +654,20 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-22", 1 ],
+                    "source": [ "obj-12", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-8", 0 ],
                     "source": [ "obj-14", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-22", 0 ],
+                    "source": [ "obj-16", 0 ]
                 }
             },
             {
@@ -946,14 +982,6 @@
         ],
         "parameters": {
             "obj-4": [ "live.gain~", "live.gain~", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
