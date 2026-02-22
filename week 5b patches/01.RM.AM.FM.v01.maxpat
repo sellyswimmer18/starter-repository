@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 40.0, 87.0, 1366.0, 647.0 ],
+        "rect": [ 744.0, 552.0, 606.0, 647.0 ],
         "boxes": [
             {
                 "box": {
@@ -152,7 +152,6 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 655.0, 1089.0, 111.0, 76.0 ],
-                    "presentation_linecount": 5,
                     "text": ";\rrm.amplitude 1000;\rmodulator 500.;\rmod.depth 0.25;\r"
                 }
             },
@@ -328,7 +327,6 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1151.0, 488.0, 101.0, 89.0 ],
-                    "presentation_linecount": 5,
                     "text": ";\rrm.amplitude 0.5;\rmodulator 2.;\rcarrier 500.;\rmod.depth 15;\r"
                 }
             },
