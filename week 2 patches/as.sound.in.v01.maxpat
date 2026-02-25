@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 59.0, 106.0, 1000.0, 647.0 ],
+        "rect": [ 42.0, 153.0, 1000.0, 647.0 ],
         "boxes": [
             {
                 "box": {
@@ -66,18 +66,28 @@
             },
             {
                 "box": {
+                    "clipheight": 91.0,
                     "data": {
-                        "clips": []
+                        "clips": [
+                            {
+                                "absolutepath": "cym.aiff",
+                                "filename": "cym.aiff",
+                                "filekind": "audiofile",
+                                "id": "u835009101",
+                                "loop": 0,
+                                "content_state": {                                }
+                            }
+                        ]
                     },
                     "id": "obj-19",
                     "maxclass": "playlist~",
-                    "mode": 0,
+                    "mode": "basic",
                     "numinlets": 1,
                     "numoutlets": 5,
                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                     "parameter_enable": 0,
                     "patching_rect": [ 357.0, 57.0, 150.0, 92.0 ],
-                    "quality": 0,
+                    "quality": "basic",
                     "saved_attribute_attributes": {
                         "candicane2": {
                             "expression": ""

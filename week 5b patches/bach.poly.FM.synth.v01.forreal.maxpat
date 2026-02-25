@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 65.0, 153.0, 454.0, 647.0 ],
+        "rect": [ 64.0, 152.0, 454.0, 647.0 ],
         "boxes": [
             {
                 "box": {
@@ -684,7 +684,15 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-35", 0 ],
+                    "order": 1,
+                    "source": [ "obj-2", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-41", 0 ],
+                    "order": 0,
                     "source": [ "obj-2", 0 ]
                 }
             },
